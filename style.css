@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  background-color: rgb(253, 252, 252);
+
+  display: flex;
+  justify-content: center;
+  font-family: "poppins", "general-sans";
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.main {
+  width: 100%;
+  /* background-color: rgb(253, 252, 252); */
+}
+
+.nav {
+  padding: 1vw;
+  background-color: #f2be22;
+  color: black;
+  font-size: 0.7vw;
+  font-weight: 100;
+}
+.hero {
+  padding: 1vw;
+  display: flex;
+  gap: 1vw;
+  flex-wrap: wrap;
+}
+.addnotebtn-div {
+  /* background-color: red; */
+  display: flex;
+  justify-content: flex-end;
+  padding: 1vw 3vw 0 0;
+}
+
+#addnotebtn {
+  padding: 0.7vw;
+  background-color: #f2be22;
+
+  border-radius: 1vw;
+  border: none;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+
+#addnotebtn i {
+  font-size: 2vw;
+}
+
+#addnotebtn:hover {
+  box-shadow: 2px 2px 0px;
+  cursor: pointer;
+  transition: all 0.4s ease-out;
+}
+.notesarea {
+  background-color: #fff;
+  border: 1px solid black;
+  /* min-width: 300px;
+  max-width: 300px; */
+  height: 200px;
+  width: 20%;
+
+  padding: 0.3vw;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.button-area {
+   top: 0.6vw;
+  right: 0;
+  display: flex;
+  gap: .6vw;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 0.5vw;
+  margin-right: .6vw;
+}
+
+.button-area button {
+  font-size: 1vw;
+  border: none;
+  border-radius: 50%;
+  padding: 0.3vw;
+}
+
+.button-area button:hover {
+  box-shadow: 2px 2px 1px;
+  transition: all 0.5s ease-out;
+}
+
+#edit-toggle {
+  background-color: #22a699;
+}
+
+#delete-btn {
+  background-color: #f24c3d;
+}
+
+.written-area {
+  top: 3vw;
+  width: 100%;
+  height: 100vh;
+  border: none;
+  resize: none;
+  font-size: 1vw;
+  font-family: "poppins", "general-sans";
+  /* border: 2px solid black; */
+}
+
+.written-area:focus {
+  outline: none;
+}
+
+.written-area::-webkit-scrollbar {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.mainDiv-writtenclass {
+  background-color: green;
+  color: white;
+  display: flex;
+}
+.mainDiv {
+  word-wrap: break-word;
+  top: 3vw;
+  width: 100%;
+  height: 100vh;
+  font-size: 1vw;
+  font-family: "poppins", "general-sans";
+  font-style: italic;
+ }

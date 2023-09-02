@@ -1,0 +1,109 @@
+/* 
+
+Mobile devices – 320px — 480px.
+iPads, Tablets – 481px — 768px.
+Small screens, laptops – 769px — 1024px.
+Desktops, large screens – 1025px — 1200px.
+Extra large screens, TV – 1201px, and more. 
+
+*/
+
+@media only screen and (max-width: 1024px) {
+  body {
+    /* background-color: green; */
+  }
+
+  .nav {
+    font-size: 1.2vw;
+  }
+  .notesarea {
+    width: 35%;
+  }
+
+  .written-area {
+    font-size: 1.5vw;
+  }
+  .mainDiv{
+    font-size: 1.5vw;
+  }
+  .button-area{
+    gap: 1.3vw;
+    margin-right: 1vw;
+  }
+  .button-area button {
+    font-size: 3vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        /* background-color: pink; */
+      }
+    
+      .nav {
+        font-size: 1.6vw;
+      }
+      #addnotebtn i{
+        font-size: 5vw;
+      }
+      .hero{
+        margin-top: 5vw;
+        /* background-color: red; */
+        gap: 5vw;
+
+      }
+      .notesarea {
+        width: 40%;
+      }
+    
+      .written-area {
+        font-size: 2vw;
+      }
+      .mainDiv{
+        font-size: 2vw;
+      }
+      .button-area{
+        padding: 1vw 0 1vw 0 ;
+        gap: 1.7vw;
+        margin-right: 1vw;
+      }
+      .button-area button {
+        font-size: 3.2vw;
+      }
+}
+@media only screen and (max-width: 480px) {
+    body {
+        /* background-color: pink; */
+      }
+    
+      .nav {
+        font-size: 2.6vw;
+      }
+      #addnotebtn i{
+        font-size: 7vw;
+      }
+      .hero{
+        margin-top: 7vw;
+        /* background-color: red; */
+        gap: 5vw;
+        padding: 2vw;
+      }
+      .notesarea {
+        width: 80%;
+      }
+    
+      .written-area {
+        font-size: 4vw;
+      }
+      .mainDiv{
+        font-size: 4vw;
+      }
+      .button-area{
+        padding: 1vw 0 1vw 0 ;
+        gap: 2.7vw;
+        margin-right: 5vw;
+      }
+      .button-area button {
+        font-size: 5.2vw;
+      }
+}
